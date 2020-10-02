@@ -38,7 +38,7 @@ class Logins extends React.Component {
                     type="button"
                     className="btn btn-outline-dark btn-lg btn-"
                   >
-                    <a href="inicia">Iniciar</a>
+                    <a href="seleccionar">Iniciar</a>
                   </button>
                 </div>
                 <div>
@@ -46,7 +46,7 @@ class Logins extends React.Component {
                     type="button"
                     className="btn btn-outline-dark btn-lg btn-"
                   >
-                    <a href="btnAtrasInii">Atrás</a>
+                    <a href="/">Atrás</a>
                   </button>
                 </div>
                 <div class="w-100"></div>

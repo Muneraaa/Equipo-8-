@@ -23,15 +23,24 @@ const Ejercicio = (props) => {
           );
         })}
       </ul>
+      <div class="container">
+        <div class="row btnsesion">
+          <div className="btnAtrasEjercicios">
+            <button type="button" className="btn btn-outline-dark btn-lg btn-">
+              <a href="/inicia">Atrás</a>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
 
 const hola = (ejercicio) => {
   let data = {};
-  for (let index = 0; index < infogimnasio.length; index++) {
-    if (infogimnasio[index].ruta === ejercicio) {
-      data = infogimnasio[index];
+  for (let index = 0; index < infogimnasio.infogimnasio.length; index++) {
+    if (infogimnasio.infogimnasio[index].ruta === ejercicio) {
+      data = infogimnasio.infogimnasio[index];
     }
   }
   return data;

@@ -6,16 +6,15 @@ import abdofacil from "/images/abdofacil.jpg";
 import abdodificil from "/images/abdodificil.jpg";
 import piernafacil from "/images/piernafacil.jpg";
 import piernadificil from "/images/piernadificil.jpg"; */
-import infogimnasio from "./data";
+import data from "./data";
 
 class principal extends React.Component {
   render() {
-    console.log(infogimnasio);
     return (
       <section className="contenedorEjercicios">
         <h1>ENTRENATE JMS</h1>
         <ul className="contenedorEjercicios__lista">
-          {infogimnasio.map((elemento, indice) => {
+          {data.infogimnasio.map((elemento, indice) => {
             return (
               <div className="carta">
                 <li
@@ -28,19 +27,20 @@ class principal extends React.Component {
                 {elemento.ejercicios.map((elemento, indice) => {
                   return (
                     <div>
-                      <li key={indice}>
-                        {elemento.descripcion}
-                      </li>
-                    </div>  
-                  )
+                      <li key={indice}>{elemento.descripcion}</li>
+                    </div>
+                  );
                 })}
                 <button type="button" className="btn btn-dark btn-lg btn-block">
-                  <a href={elemento.ruta} >¿Cómo se hace?</a>{" "}
+                  <a href={elemento.ruta}>¿Cómo se hace?</a>{" "}
                 </button>
               </div>
             );
           })}
         </ul>
+        <button type="button" className="btn btn-dark btn-lg btn-">
+          <a href="seleccionar">Atrás</a>
+        </button>
       </section>
     );
   }

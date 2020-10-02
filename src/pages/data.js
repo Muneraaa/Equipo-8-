@@ -7,7 +7,7 @@ const infogimnasio = [
       {
         descripcion:
           " 7 repeticiones de flexiones de pecho en rodilla - 4 series",
-          imagen: require("../images/flexionesbrazod.jpg")
+        imagen: require("../images/flexionesbrazod.jpg")
       },
       {
         descripcion: "7 repeticiones de flexion de pecho - 3 series",
@@ -62,7 +62,6 @@ const infogimnasio = [
       {
         descripcion: "15 abdominales de rodilla",
         imagen: require("../images/rodillad.jpg")
-
       },
       {
         descripcion: "12 toques de talon",
@@ -96,7 +95,7 @@ const infogimnasio = [
         imagen: require("../images/rodillasd.gif")
       },
       {
-        descripcion:"20 toques de talon",
+        descripcion: "20 toques de talon",
         imagen: require("../images/talond.png")
       }
     ]
@@ -165,4 +164,17 @@ const infogimnasio = [
   }
 ];
 
-export default infogimnasio;
+const diasdelasemana = [
+  "Lunes",
+  "Martes",
+  "Miércoles",
+  "Jueves",
+  "Viernes",
+  "Sábado",
+  "Domingo"
+];
+
+export default {
+  diasdelasemana,
+  infogimnasio
+};

@@ -5,7 +5,7 @@ class registrarse extends React.Component {
   render() {
     return (
       <div className="container-fluid fondoInicio">
-        <div className="row">
+        <div className="row fondoInicio__contenedor">
           <div className="col-sm">
             <h1 class="tituloPrincipal"> REGISTRARSE </h1>
 
@@ -45,7 +45,7 @@ class registrarse extends React.Component {
               ></input>
             </form>
 
-            <div>
+            <div className="btnsRegistrarse">
               <div class="container">
                 <div class="row">
                   <div class="col">
@@ -55,7 +55,7 @@ class registrarse extends React.Component {
                         type="button"
                         className="btn btn-outline-dark btn-md"
                       >
-                        <a href="siguiente">Iniciar sesión</a>
+                        <a href="logins">Iniciar sesión</a>
                       </button>
                     </div>
                   </div>
@@ -65,7 +65,7 @@ class registrarse extends React.Component {
                         type="button"
                         className="btn btn-outline-dark btn-md btn-"
                       >
-                        <a href="btnAtrasInii">Atras</a>
+                        <a href="/">Atras</a>
                       </button>
                     </div>
                     <div class="w-100"></div>
