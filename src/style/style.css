@@ -1,0 +1,110 @@
+body {
+  background-color: #eb5e5a;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.label {
+  font-display: "center";
+}
+
+.btninicio {
+  background-color: black;
+}
+
+.tituloPrincipal {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titulo1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+button a,
+button span {
+  color: #ffffff;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.fondoInicio {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondoInicio .fondoInicio__contenedor {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.btnolvcontra {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btnsesion {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.emailolvido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnenviarpassword {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedorEjercicios h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contenedorEjercicios .contenedorEjercicios__lista {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.contenedorEjercicios
+  .contenedorEjercicios__lista
+  .contenedorEjercicios__lista--elemento {
+  margin-bottom: 20px;
+}
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.carta img {
+  width: 300px;
+  height: 200px;
+}
+
+.carta:nth-child(2n) {
+  margin-left: 10px;
+}
