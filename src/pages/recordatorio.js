@@ -14,7 +14,7 @@ class seleccionar extends React.Component {
       <div className="container-fluid">
         <div className="row containerRecordatorio">
           <div className="col">
-            <h1 className="tituloPrincipal">ENTRENATE CON JMS</h1>
+            <h1 className="tituloPrincipal recordatorio">ENTRENATE CON JMS</h1>
           </div>
 
           <div className="w-100">
