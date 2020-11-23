@@ -7,7 +7,7 @@ const infogimnasio = [
       {
         descripcion:
           " 7 repeticiones de flexiones de pecho en rodilla - 4 series",
-        imagen: require("../images/flexionesbrazod.jpg")
+        imagen: require("../images/flexionesdebrazof.webp")
       },
       {
         descripcion: "7 repeticiones de flexion de pecho - 3 series",
@@ -15,7 +15,7 @@ const infogimnasio = [
       },
       {
         descripcion: "5 repeticiones de levantamineto de Pesas - 4 series",
-        imagen: require("../images/barzomancuerna.jpg")
+        imagen: require("../images/brazomancuernad.jpg")
       }
     ]
   },
@@ -30,22 +30,22 @@ const infogimnasio = [
       },
       {
         descripcion: "14 repeticiones de flexion de pecho - 4 series",
-        imagen: require("../images/brazopecho.jpg")
+        imagen: require("../images/brazopechpd.jpg")
       },
       {
         descripcion: "14 repeticiones de levantamineto de Pesas - 4 series",
-        imagen: require("../images/brazomancuerna.jpg")
+        imagen: require("../images/barzomancuerna.jpg")
       }
     ]
   },
   {
     nomejercicio: "Abdomen fácil",
-    imagen: require("../images/abdomen.jpg"),
+    imagen: require("../images/abdofacil.jpg"),
     ruta: "Abdomen-Facil",
     ejercicios: [
       {
         descripcion: "10 abdominales",
-        imagen: require("../images/abdofacil.jpg")
+        imagen: require("../images/abdomenf.jpg")
       },
       {
         descripcion: "20 seg de piernas levantadas",
@@ -92,7 +92,7 @@ const infogimnasio = [
       },
       {
         descripcion: "30 abdominales de rodilla",
-        imagen: require("../images/rodillad.jpg")
+        imagen: require("../images/rodillasd.gif")
       },
       {
         descripcion: "20 toques de talon",
@@ -146,7 +146,7 @@ const infogimnasio = [
       },
       {
         descripcion: "20 sentadillas búlgara por cada pierna - 4 series",
-        imagen: require("../images/bulgarad.jpg")
+        imagen: require("../images/bulgarad.jpeg")
       },
       {
         descripcion: "30 repeticiones de puente de cadera - 4 series",
