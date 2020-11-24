@@ -10,34 +10,34 @@ class registrarse extends React.Component {
             <h1 class="tituloPrincipal"> REGISTRARSE </h1>
 
             <form>
-              <label for="exampleInputEmail1">Nombre Completo</label>
+              <label htmlFor="exampleInputEmail1">Nombre Completo</label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               ></input>
             </form>
             <form>
-              <label for="exampleInputEmail1">E-mail</label>
+              <label htmFor="exampleInputEmail1">E-mail</label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               ></input>
             </form>
             <form>
-              <label for="exampleInputEmail1">Usuario</label>
+              <label htmFor="exampleInputEmail1">Usuario</label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               ></input>
             </form>
             <form>
-              <label for="exampleInputPassword1">Contraseña</label>
+              <label htmlFor="exampleInputPassword1">Contraseña</label>
               <input
                 type="password"
                 class="form-control"
@@ -46,10 +46,10 @@ class registrarse extends React.Component {
             </form>
 
             <div className="btnsRegistrarse">
-              <div class="container">
-                <div class="row">
-                  <div class="col">
-                    <div class="form-group">
+              <div className="container">
+                <div className="row">
+                  <div className="col">
+                    <div className="form-group">
                       <button
                         class="Boton2"
                         type="button"
@@ -60,7 +60,7 @@ class registrarse extends React.Component {
                     </div>
                   </div>
                   <div>
-                    <div class="col">
+                    <div className="col">
                       <button
                         type="button"
                         className="btn btn-outline-dark btn-md btn-"
@@ -68,7 +68,7 @@ class registrarse extends React.Component {
                         <a href="/">Atras</a>
                       </button>
                     </div>
-                    <div class="w-100"></div>
+                    <div className="w-100"></div>
                   </div>
                 </div>
               </div>

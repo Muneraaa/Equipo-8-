@@ -44,23 +44,23 @@ const infogimnasio = [
     ruta: "Abdomen-Facil",
     ejercicios: [
       {
-        descripcion: "10 abdominales",
+        descripcion: "10 abdominales - 3 series",
         imagen: require("../images/abdomenf.jpg")
       },
       {
-        descripcion: "20 seg de piernas levantadas",
+        descripcion: "20 seg de piernas levantadas - 2 series",
         imagen: require("../images/pieslevantadosf.jpg")
       },
       {
-        descripcion: "10 abdominales cruzadas de ciclismo",
+        descripcion: "10 abdominales cruzadas de ciclismo - 3 series",
         imagen: require("../images/cruzadasf.png")
       },
       {
-        descripcion: "20 seg de plancha",
+        descripcion: "20 seg de plancha - 2 series",
         imagen: require("../images/planchaf.jpg")
       },
       {
-        descripcion: "15 abdominales de rodilla",
+        descripcion: "15 abdominales de rodilla - 2 series",
         imagen: require("../images/rodillad.jpg")
       },
       {
@@ -75,27 +75,27 @@ const infogimnasio = [
     ruta: "Abdomen-Dificil",
     ejercicios: [
       {
-        descripcion: "30 abdominales de rodilla",
+        descripcion: "30 abdominales de rodilla - 3 series",
         imagen: require("../images/abdominalesd.jpg")
       },
       {
-        descripcion: "40 seg de piernas levantadas",
+        descripcion: "40 seg de piernas levantadas - 2 series",
         imagen: require("../images/levantadasd.jpeg")
       },
       {
-        descripcion: "30 abdominales cruzadas de ciclismo",
+        descripcion: "30 abdominales cruzadas de ciclismo - 3 series",
         imagen: require("../images/cruzadasd.jpg")
       },
       {
-        descripcion: "40 seg de plancha",
+        descripcion: "40 seg de plancha - 2 series",
         imagen: require("../images/planchad.jpg")
       },
       {
-        descripcion: "30 abdominales de rodilla",
+        descripcion: "30 abdominales de rodilla - 3 series",
         imagen: require("../images/rodillasd.gif")
       },
       {
-        descripcion: "20 toques de talon",
+        descripcion: "20 toques de talon - 3 series",
         imagen: require("../images/talond.png")
       }
     ]
@@ -106,19 +106,19 @@ const infogimnasio = [
     ruta: "Pierna-Facil",
     ejercicios: [
       {
-        descripcion: "20 repeticiones de sentadillas - 4 series",
+        descripcion: "20 repeticiones de sentadillas - 3 series",
         imagen: require("../images/sentadillaf.jpg")
       },
       {
-        descripcion: " 15 repeticiones de zancadas por acada pierna",
+        descripcion: " 15 repeticiones de zancadas por acada pierna - 2 series",
         imagen: require("../images/zancadasf.jpg")
       },
       {
-        descripcion: "12 sentadillas búlgara por cada pierna - 4 series",
+        descripcion: "12 sentadillas búlgara por cada pierna - 3 series",
         imagen: require("../images/bulgaraf.jpg")
       },
       {
-        descripcion: "20 repeticiones de puente de cadera - 4 series",
+        descripcion: "20 repeticiones de puente de cadera - 3 series",
         imagen: require("../images/puentecaderaf.jpg")
       },
       {
@@ -126,7 +126,7 @@ const infogimnasio = [
         imagen: require("../images/abduccionf.jpg")
       },
       {
-        descripcion: " 15 repeticiones de gemelo - 4 series",
+        descripcion: " 15 repeticiones de gemelo - 3 series",
         imagen: require("../images/pantorrilaf.jpg")
       }
     ]
@@ -137,11 +137,11 @@ const infogimnasio = [
     ruta: "Pierna-Dificil",
     ejercicios: [
       {
-        descripcion: "30 repeticiones de sentadillas - 4 series",
+        descripcion: "30 repeticiones de sentadillas - 3 series",
         imagen: require("../images/sentadillad.jpg")
       },
       {
-        descripcion: " 20 repeticiones de zancadas por acada pierna - series",
+        descripcion: " 20 repeticiones de zancadas por acada pierna - 2 series",
         imagen: require("../images/zancadasd.jpg")
       },
       {
